@@ -69,5 +69,5 @@ In many academic and small-scale industry setups, project management suffers fro
 #### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/project-management-system.git
+git clone https://github.com/adrs2004/IntraManage.git
 cd project-management-system
