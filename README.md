@@ -57,50 +57,73 @@ In many academic and small-scale industry setups, project management suffers fro
 
 ## 🏗️ Tech Stack
 
-### Frontend
-| Technology | Purpose |
-|------------|---------|
-| React (Vite) | UI Framework |
-| Tailwind CSS | Styling |
-| React Router DOM | Navigation |
-| Axios | API Calls |
+<table>
+  <tr>
+    <th width="50%">🎨 Frontend</th>
+    <th width="50%">⚙️ Backend</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      <table>
+        <tr><td><b>React (Vite)</b></td><td>UI Framework</td></tr>
+        <tr><td><b>Tailwind CSS</b></td><td>Styling</td></tr>
+        <tr><td><b>React Router DOM</b></td><td>Navigation</td></tr>
+        <tr><td><b>Axios</b></td><td>API Calls</td></tr>
+      </table>
+    </td>
+    <td valign="top">
+      <table>
+        <tr><td><b>Node.js</b></td><td>Runtime</td></tr>
+        <tr><td><b>Express.js</b></td><td>Server Framework</td></tr>
+        <tr><td><b>MongoDB + Mongoose</b></td><td>Database</td></tr>
+        <tr><td><b>JWT</b></td><td>Authentication</td></tr>
+        <tr><td><b>Bcrypt</b></td><td>Password Security</td></tr>
+        <tr><td><b>Multer</b></td><td>File Uploads</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
-### Backend
-| Technology | Purpose |
-|------------|---------|
-| Node.js | Runtime |
-| Express.js | Server Framework |
-| MongoDB + Mongoose | Database |
-| JWT | Authentication |
-| Bcrypt | Password Security |
-| Multer | File Uploads |
-
----
-
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js / Python
-- MongoDB / PostgreSQL
-
-### Installation
+### Installation & Setup
 
 ```bash
 # Clone the repository
 git clone https://github.com/adrs2004/IntraManage.git
+cd IntraManage
 
-# Navigate into directory
-For Backend: cd backend
-For Admin: cd Admin
-For Manager: cd Manager
-For Intern: cd Intern
+# Start backend server
+cd ../backend && npm install
+npm run start
 
-# Install dependencies
-npm install
+# Install Admin panel dependencies
+cd ../admin && npm install
+npm run dev
 
-# Run the application
-For Backend: npm run start
-For Frontend: npm run dev
+# Install Manager panel dependencies
+cd ../manager && npm install
+npm run dev
+
+# Install Intern panel dependencies
+cd ../intern && npm install
+npm run dev
+
+```
+
+### Environment Variables
+Create `.env` file in backend folder:
+```
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+---
+
+<div align="center">
+
+### © Copyright 2026 | IntraManage
+
+![Copyright](https://img.shields.io/badge/License-All%20Rights%20Reserved-darkred)
+![Status](https://img.shields.io/badge/Status-Pending-yellow)
+
+</div>
