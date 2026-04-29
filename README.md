@@ -12,9 +12,6 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/adrs2004/IntraManage)](https://github.com/adrs2004/IntraManage/commits/main)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-
-**Developed by:** Adarsh Kumar Pathak
-
 </div>
 
 ## 📌 Overview
