@@ -1,11 +1,21 @@
-# 🚀 Industry Project Management System
+<div align="center">
 
-> A full-stack web application simulating real-world project workflows with role-based access control for Admins, Managers, and Interns.
-![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/industry-project-management-system)
-![GitHub stars](https://img.shields.io/github/stars/yourusername/industry-project-management-system?style=social)
-![GitHub license](https://img.shields.io/github/license/yourusername/industry-project-management-system)
+# 🚀 IntraManage
 
----
+### Industry Project Platform System
+
+![Banner](https://img.shields.io/badge/Version-1.0.0-red)
+[![GitHub stars](https://img.shields.io/github/stars/adrs2004/IntraManage?style=social)](https://github.com/adrs2004/IntraManage/stargazers)
+[![GitHub language count](https://img.shields.io/github/languages/count/adrs2004/IntraManage)](https://github.com/adrs2004/IntraManage)
+[![GitHub top language](https://img.shields.io/github/languages/top/adrs2004/IntraManage)](https://github.com/adrs2004/IntraManage)
+[![GitHub repo size](https://img.shields.io/github/repo-size/adrs2004/IntraManage)](https://github.com/adrs2004/IntraManage)
+[![GitHub last commit](https://img.shields.io/github/last-commit/adrs2004/IntraManage)](https://github.com/adrs2004/IntraManage/commits/main)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+
+**Developed by:** Adarsh Kumar Pathak
+
+</div>
 
 ## 📌 Overview
 
@@ -83,17 +93,17 @@ In many academic and small-scale industry setups, project management suffers fro
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/industry-project-management-system.git
+git clone https://github.com/adrs2004/IntraManage.git
 
 # Navigate into directory
-cd industry-project-management-system
+For Backend: cd backend
+For Admin: cd Admin
+For Manager: cd Manager
+For Intern: cd Intern
 
 # Install dependencies
-# For Node.js
 npm install
 
-# Setup environment variables
-cp .env.example .env
-
 # Run the application
-npm start
+For Backend: npm run start
+For Frontend: npm run dev
